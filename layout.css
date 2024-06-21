@@ -86,3 +86,40 @@ nav {
 .img-and-caption label {
     height: auto;
 }
+
+.resources {
+    display: flex;
+    gap: 15%;
+    font-size: large;
+}
+
+.list-column {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.list-column p {
+    margin: 0 0 10px 0;
+}
+
+.survey {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+
+.survey * {
+    padding-bottom: 10px;
+}
+
+.survey button {
+    margin: 10px;
+}
+
+.survey-subheading {
+    display: flex;
+    justify-content: center;
+}
